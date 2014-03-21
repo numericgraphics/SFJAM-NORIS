@@ -4,15 +4,74 @@
 <head>
     <meta charset="utf-8" />
     <title>TypeScript HTML App</title>
-    <link rel="stylesheet" href="app.css" type="text/css" />
+    <link rel="stylesheet" href="css/app.css" type="text/css" />
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
 
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="app.js"></script>
+    
 </head>
 <body>
-    <h1>SFJAM NORIS</h1>
-    <div id="content" ng-view></div>
+    <div id="wrap">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <img class="brand" src="assets/logoSite.png" alt="SFJAM-NORIS" id="brandlogo" />
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> Accueil</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Boutique<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">judo</a></li>
+                                <li><a href="#">Karaté</a></li>
+                                <li><a href="#">Kung fu</a></li>
+                                <li><a href="#">Aikido</a></li>
+                                <li><a href="#">Yoseikan</a></li>
+                                <li><a href="#">Boxe</a></li>
+                                <li><a href="#">Taekwondo</a></li>
+                                <li><a href="#">Kendo</a></li>
+                                <li><a href="#">Equipements autre</a></li>
+                                <li><a href="#">Textiles</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a> </li>
+                    </ul>
+                    <div class="navbar-collapse collapse">
+                        <form class="navbar-form navbar-right" role="form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder="Password" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-success">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!--/.navbar-collapse -->
+                
+
+
+            </div>
+        </div>
+
+        </div><!--/.wrap -->
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted credit">© SFJAM - NORIS 2014</p>
+        </div>
+    </div>
+        <div id="content" ng-view></div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
+
 </body>
 </html>

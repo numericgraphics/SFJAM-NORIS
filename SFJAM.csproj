@@ -17,7 +17,9 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app.css" />
+    <Content Include="assets\logoSite.png" />
+    <Content Include="css\app.css" />
+    <Content Include="css\sticky-footer-navbar.css" />
     <Content Include="default.htm" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
