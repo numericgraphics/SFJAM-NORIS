@@ -40,6 +40,8 @@
 .voffset8 { margin-top: 100px; }
 .voffset9 { margin-top: 150px; }
 
+.navbar { height: 20px;  }
+
 /*.modal {
   display: block;
   height: 0;
