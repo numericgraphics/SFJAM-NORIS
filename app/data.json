@@ -1,0 +1,28 @@
+{
+
+"presentation": [
+{ "name":"Accueil" },
+{ "name":"Historique" },
+{ "name":"Plancher" },
+{ "name":"Tatamis" }
+],
+
+"boutique": [
+{ "name":"Judo" }, 
+{ "name":"Karaté" }, 
+{ "name":"Kung fu" },
+{ "name":"Aikido" },
+{ "name":"Yoseikan" },
+{ "name":"Boxe" },
+{ "name":"Taekwondo" },
+{ "name":"Kendo" },
+{ "name":"Equipements autre" },
+{ "name":"Textiles" }
+],
+
+
+"magasins": [
+{ "name":"france" },
+{ "name":"international" }
+]
+}
