@@ -40,7 +40,16 @@
 .voffset8 { margin-top: 100px; }
 .voffset9 { margin-top: 150px; }
 
-.navbar { height: 20px;  }
+
+
+@media (min-width: 767px) {
+  .navbar { height: 20px;  }
+}
+@media (max-width: 768px) {
+  .navbar {height: auto !important;}
+  
+}
+
 
 /*.modal {
   display: block;

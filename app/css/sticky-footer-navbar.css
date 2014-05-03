@@ -27,7 +27,7 @@ body {
 
 .top-buffer { margin-top:60px; }
 .top-buffer-middle { margin-top:30px; }
-
+/*
 buttonForm{
 	vertical-align: middle;
 }
@@ -35,13 +35,13 @@ buttonForm{
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;  ie8 
 }
 #call
 {
 	display: none;
-}
-/* 1024px */
+}*/
+/* 1024px 
 @media all and (max-width: 480px)
 {
     #fresque
@@ -54,7 +54,7 @@ img {
     }
 	
 
-}
+}*/
 
 
 
